@@ -10,3 +10,7 @@ Curso práctico de JavaScript realizado en Platzi
 - Tercer paso: crear funciones
 - Cuarto paso: integrar JS con HTML
 
+Nota: espero aprender cada día más #NuncaParesDeAprender #Platzi 💚
+
+
+
