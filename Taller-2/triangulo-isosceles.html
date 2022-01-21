@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" media="only screen and (max-width:2048px)" href="./triangulo-isosceles.css">
+   
+    <title>Triángulo Isósceles | Curso Práctico de JavaScript</title>
+</head>
+
+<body>
+    <header>
+        <h1>Figuras Geométricas</h1>
+        <p id ="explain">
+            Este es el segundo taller del curso práctico de JavaScript
+        </p>
+    </header>
+
+    <div class="trianguloDiv" id="triangulo">
+        <h3>Calcula la altura un triángulo isósceles 📐</h3>
+        <p>Escribe el lado 1, lado 2 y el lado 3 de tu triángulo</p>
+
+        <label for="InputTriangulo1"> Lado 1: </label>
+        <input type="number" id="InputTriangulo1" /><br><br>
+        <label for="InputTriangulo2"> Lado 2: </label>
+        <input type="number" id="InputTriangulo2" /><br><br>
+        <label for="InputTriangulo3"> Lado 3: </label>
+        <input type="number" id="InputTriangulo3" /><br><br>
+        <button type="button" onclick="calcularAlturaTriangulo()">
+            Calcular altura
+        </button>
+        <br /><br />
+        <label for="InputTrianguloSalida">Respuesta</label>
+        <input type="text" id="InputTrianguloSalida" readonly" />
+    </div>
+
+    <script src="./triangulo-isosceles.js"></script>
+</body>
+
+</html>
