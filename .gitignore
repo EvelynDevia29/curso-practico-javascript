@@ -105,3 +105,9 @@ dist
 
 #Configuracion de Visual studio code
 .vscode
+
+#Ignorar archivos de imagen
+pexels-max-fischer-5212338.jpg
+
+#ignorar png
+fondo.png
