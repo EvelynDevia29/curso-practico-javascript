@@ -26,7 +26,7 @@ En este ejercicio debo crear una función para calcular la altura de un triángu
 
 Crear una página web para calcular descuentos
 
-
+## Taller #3>: promedio, mediana y moda
 
 
 
