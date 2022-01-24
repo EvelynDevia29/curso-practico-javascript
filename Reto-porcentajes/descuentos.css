@@ -1,0 +1,88 @@
+:root {
+    --color-1: #DAF7A6;
+    --color-2: #FFC300;
+    --color-3: #FF5733;
+    --color-4: #C70039;
+    --color-5: #900C3F;
+    --color-6: #581845;
+    --white: #FFFFFF;
+    --black: #000000;
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+  }
+  body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+  }
+  .calcular {
+    width: 100%;
+    height: 60vh;
+    display: grid;
+    place-items: center;
+    background-color:white;
+  }
+  .form-container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 300px;
+    background-color: var(--hospital-green);
+    border-radius: 10px;
+    
+  }
+  .card-title{
+      text-align: center;
+  }
+  /*.logo {
+    width: 150px;
+    margin-bottom: 48px;
+    justify-self: center;
+    display: none;
+  }*/
+  .title {
+    font-size: var(--lg);
+    margin-bottom: 36px;
+    text-align: center;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  .form div {
+    display: flex;
+    flex-direction: column;
+  }
+  .label {
+    font-size: var(--sm);
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+  
+
+  button:hover{
+    background-color:var(--very-light-pink);
+    color:black;
+    font-size: 14px;
+
+  }
+
+  .calculaButton {
+    margin-top: 14px;
+    margin-bottom: 30px;
+    background-color:var(--hospital-green);
+    color: black;
+  }
+
+  
+  @media (max-width: 640px) {
+    .form-container {
+      height: 100%;
+    }
+    .form {
+      height: 100%;
+      justify-content: space-between;
+    }
+  }

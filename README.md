@@ -22,6 +22,14 @@ En este ejercicio debo crear una función para calcular la altura de un triángu
 - La función debe validar que la longitud de los 3 lados del triángulo corresponden a un triángulo isósceles.
 - La función debe retornar la altura del triángulo.
 
+## Reto: calcular porcentajes y descuentos 
+
+Crear una página web para calcular descuentos
+
+
+
+
+
 
 
 
