@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./capacidad-endeudamiento.css" />
+    <title>Capacidad de Endeudamiento</title>
+</head>
+
+<body>
+
+    <h1>Capacidad de endeudamiento</h1>
+    <div class="container-card">
+            <h2 class="card-header">Ingresos Totales</h2>
+            <label for="InputIngresos-salario"> Salario: </label>
+            <input type="number" id="InputIngresos-salario" />
+
+
+            <label for="InputIngresos-rendi"> Rendimientos de inversión: </label>
+            <input type="number" id="InputIngresos-rendi" />
+
+            <label for="InputIngresos-otras"> Otras entradas: </label>
+            <input type="number" id="InputIngresos-otras" />
+    </div>
+
+
+    <div class="container-card">
+            <h2 class="card-header">Gastos Fijos</h2>
+            <label for="InputGastos-comida"> Alimentación: </label>
+            <input type="number" id="InputGastos-comida" />
+
+            <label for="InputGastos-gas"> Gas: </label>
+            <input type="number" id="InputGastos-gas" />
+
+
+            <label for="InputGastos-energia"> Energia: </label>
+            <input type="number" id="InputGastos-energia" />
+
+
+            <label for="InputGastos-agua"> Agua: </label>
+            <input type="number" id="InputGastos-agua" />
+
+
+            <label for="InputGastos-wifi"> Internet: </label>
+            <input type="number" id="InputGastos-wifi" />
+
+
+            <label for="InputGastos-transp"> Transporte: </label>
+            <input type="number" id="InputGastos-transp" />
+
+
+            <label for="InputGastos-arriendo"> Renta: </label>
+            <input type="number" id="InputGastos-arriendo" />
+      </div>
+
+
+    <div class="container-card">
+            <h2 class="card-header">Gastos Variables</h2><br><br>
+            <label for="InputGastosVariables-ropa"> Vestido, calzado: </label>
+            <input type="number" id="InputGastosVariables-ropa" />
+
+
+            <label for="InputGastosVariables-seguros"> Seguros: </label>
+            <input type="number" id="InputGastosVariables-seguros" />
+    </div>
+
+    <div class="container-card">
+        <h2 class="card-header">Capacidad de ahorro y endeudamiento</h2>
+
+            <label for="InputCalculoSalida">Capacidad de endeudamiento:</label>
+            <input type="text" id="InputCalculoSalida" readonly" />
+
+            <label for="InputCalculoSalidaAhorro">Capacidad de ahorro:</label>
+            <input type="text" id="InputCalculoSalidaAhorro" readonly" />
+
+
+            <button type="button" onclick="calcularCapacidadEndeudamiento()">
+                Calcular capacidad de endeudamiento
+            </button>
+
+    </div>
+
+    <script src="./capacidad-endeudamiento.js"></script>
+</body>
+
+</html>

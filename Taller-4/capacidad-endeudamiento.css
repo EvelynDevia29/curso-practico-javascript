@@ -1,0 +1,74 @@
+:root {
+  --color-1: #daf7a6;
+  --color-2: #ffc300;
+  --color-3: #ff5733;
+  --color-4: #c70039;
+  --color-5: #900c3f;
+  --color-6: #581845;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: burlywood;
+}
+.container-card {
+  display: grid;
+  grid-template-columns: 4fr 4fr;
+  gap: 10px;
+  width: 50vw;
+  /* height: 50vw; */
+  background-color: var(--color-1);
+  padding: 35px;
+  box-sizing: border-box;
+  border-radius:15px;
+  border: 2px solid coral;
+  margin: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+ 
+}
+
+h2.card-header{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+}
+
+h1 {
+    background-color:var(--color-1);
+    border:2px solid coral;
+    border-radius: 10px;
+    font-size: 32px;
+    /* padding-left: 320px; */
+    font-family: "Open Sans", sans-serif;
+  }
+
+  h2 {
+    font-size: 22px;
+    margin: 0;
+  }
+
+  button:hover {
+    background-color: #008cba;
+    color: white;
+    font-size: 14px;
+    
+  }
+  
+  button {
+    background-color: white;
+    color: black;
+    border: 2px solid gray;
+    border-radius: 15px;
+    font-size: 14px;
+  }
+
+  #InputCalculoSalida, #InputCalculoSalidaAhorro {
+    padding: 1px;
+    margin-left: 0px;
+    width: 200px;
+    height: 18px;
+    align-items: center;
+  }

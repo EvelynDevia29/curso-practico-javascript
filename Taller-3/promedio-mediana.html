@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./mediana.css" />
+    <title>Promedio || Mediana</title>
+</head>
+
+<body>
+
+    <h1>Calcular promedio</h1>
+    <div class="container-card">
+            <h2 class="card-header">Promedio</h2>
+            <p>Esta es la media aritmética y se calcula agregando un grupo de números y dividiendo por el recuento de esos números.
+            Por ejemplo, el promedio de 2, 3, 3, 5, 7 y 10 es 30 dividido por 6, que es 5.</p>
+            <label for="InputListaNumeros"> Ingrese lista de números: </label>
+            <input type="text" id="InputListaNumeros" />
+
+            <button type="button" onclick="ingresarNumerosAlArreglo()">
+                Ingresar a la lista
+            </button>
+
+
+
+            <label for="OutputPromedio"> Promedio de la lista: </label>
+            <input type="number" id="OutputPromedio" />
+
+            <button type="button" onclick="calcularMediaAritmetica()">
+                Calcular Promedio
+            </button>
+
+    </div>
+
+
+    <script src="./mediana.js"></script>
+    <script src="./promedio.js"></script>
+   
+</body>
+
+</html>
